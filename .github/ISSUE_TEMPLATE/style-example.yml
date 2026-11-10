@@ -1,0 +1,86 @@
+name: 投稿风格示例
+description: 分享一份可公开展示的 PPT、网页 UI 或论文插图
+title: "[风格投稿] "
+body:
+  - type: markdown
+    attributes:
+      value: 表单和附件公开可见。请上传可以公开分享的示例。
+  - type: dropdown
+    id: category
+    attributes:
+      label: 类别
+      options:
+        - ppt
+        - ui
+        - paper
+    validations:
+      required: true
+  - type: input
+    id: style
+    attributes:
+      label: 风格名称
+      placeholder: 俄国构成主义
+    validations:
+      required: true
+  - type: input
+    id: style-slug
+    attributes:
+      label: 风格目录名
+      description: 可选。已有风格请填写它的目录名，例如 russian-constructivism。
+  - type: input
+    id: example-title
+    attributes:
+      label: 示例名称
+      placeholder: 大学介绍页
+    validations:
+      required: true
+  - type: upload
+    id: previews
+    attributes:
+      label: 预览图片
+      description: 按展示顺序上传 1 至 10 张图片。第一张作为封面。
+    validations:
+      required: true
+      accept: ".webp,.png,.jpg,.jpeg"
+  - type: textarea
+    id: description
+    attributes:
+      label: 示例说明
+      description: 说明适合什么页面，以及值得借用的视觉特征。
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: 作者
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: 示例许可
+      placeholder: CC-BY-4.0
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: 参考来源
+      description: 有参考素材时，每行填写一个链接和相应的署名、许可。
+  - type: textarea
+    id: prompt
+    attributes:
+      label: 生成提示词
+      description: 可附适合公开的生成提示词。
+  - type: textarea
+    id: metadata
+    attributes:
+      label: 示例元数据
+      description: 可选。粘贴已有的 example.json 或拖入该文件，图片列表应与预览图的上传顺序一致。
+  - type: checkboxes
+    id: publish
+    attributes:
+      label: 公开确认
+      options:
+        - label: 我确认这些材料可以公开，并授权按上面填写的许可收入示例仓库。
+          required: true
