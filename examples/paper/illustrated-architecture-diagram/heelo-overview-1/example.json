@@ -1,0 +1,22 @@
+{
+  "title": "HEELO Overview",
+  "description": "用浅色背景划分原语库、任务入口、组合、执行和改进等模块。统一的图标卡片和箭头让读者能沿流程查看细节，适合信息较多的科研系统概览。",
+  "author": "Haibo Jin, Peng Kuang, Xiaopeng Yuan, Lucheng Fu, Jerry Wang, Xucheng Yu, Yaoning Yu, Dehao Wu, Runguo Li, Colin Su, Jingxuan Sun, Xuyang Liu, Haojing Luo, Haohan Wang",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/heelo-overview.png",
+      "caption": "arXiv:2611.07461v1 图 2「Overview of HEELO」。按原样转载。"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/html/2611.07461v1#S3.F2",
+      "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks (Figure 2)",
+      "credit": "Haibo Jin 等。arXiv:2611.07461v1。CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)。",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "$schema": "../../../../schemas/example.schema.json",
+  "style": "图标化科研架构图"
+}
