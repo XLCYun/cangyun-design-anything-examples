@@ -2,6 +2,8 @@
 
 这里收录社区用 Design Anything 做出的 PPT、网页界面和论文插图示例。每条示例附预览图、用途和可借用的视觉特征。按需浏览单个示例即可。[Design Anything Skill](https://github.com/XLCYun/cangyun-design-anything)
 
+在线图集支持按类别浏览和关键词搜索，示例合并到 `main` 后会自动更新。[浏览图集](https://xlcyun.github.io/cangyun-design-anything-examples/)
+
 | 类别 | 目录 |
 | --- | --- |
 | PPT | [examples/ppt](examples/ppt/) |

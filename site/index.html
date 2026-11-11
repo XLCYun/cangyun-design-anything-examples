@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="浏览和搜索 Design Anything 的 PPT、网页 UI 和论文插图示例。">
+  <title>风格示例库 · Design Anything</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="gallery.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="frame header-content">
+      <a class="brand" href="./">Design Anything</a>
+      <a class="header-link" href="https://github.com/XLCYun/cangyun-design-anything-examples/issues/new?template=style-example.yml">投稿示例 ↗</a>
+    </div>
+  </header>
+  <main class="frame">
+    <h1>风格示例库</h1>
+    <div class="gallery-controls">
+      <div class="categories" role="group" aria-label="示例类别">
+        <button type="button" data-category="all" aria-pressed="true">全部</button>
+        <button type="button" data-category="ppt" aria-pressed="false">PPT</button>
+        <button type="button" data-category="ui" aria-pressed="false">网页 UI</button>
+        <button type="button" data-category="paper" aria-pressed="false">论文插图</button>
+      </div>
+      <form role="search" id="search">
+        <input type="search" id="query" name="q" aria-label="搜索示例" placeholder="搜索标题、风格或描述">
+      </form>
+    </div>
+    <p class="status" id="status" role="status">正在加载示例…</p>
+    <div class="gallery" id="gallery"></div>
+    <noscript><p>启用 JavaScript 即可浏览和搜索示例。</p></noscript>
+  </main>
+</body>
+</html>

@@ -1,0 +1,57 @@
+name: Deploy example gallery
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'examples/**'
+      - 'schemas/example.schema.json'
+      - 'site/**'
+      - 'scripts/build_gallery.py'
+      - '.github/workflows/deploy-gallery.yml'
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - name: Build the gallery and catalogs
+        run: |
+          set -euo pipefail
+          python3 -m venv "$RUNNER_TEMP/gallery-venv"
+          gallery_python="$RUNNER_TEMP/gallery-venv/bin/python"
+          "$gallery_python" -m pip install --disable-pip-version-check jsonschema==4.26.0
+          "$gallery_python" scripts/build_gallery.py "$RUNNER_TEMP/gallery-site"
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: ${{ runner.temp }}/gallery-site
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

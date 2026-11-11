@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="$description">
+  <title>$title · Design Anything</title>
+  <link rel="stylesheet" href="${root}styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="frame header-content">
+      <a class="brand" href="$root">Design Anything</a>
+      <a class="header-link" href="$root?category=$category">返回示例库</a>
+    </div>
+  </header>
+  <main class="frame detail">
+    <p class="eyebrow">$category_label <span aria-hidden="true">/</span> $style</p>
+    <h1>$title</h1>
+    <p class="detail-description">$description</p>
+    <dl class="credits">
+      <div><dt>作者</dt><dd>$author</dd></div>
+      <div><dt>许可</dt><dd>$license</dd></div>
+    </dl>
+    <div class="previews">$previews</div>
+    $references
+  </main>
+</body>
+</html>
