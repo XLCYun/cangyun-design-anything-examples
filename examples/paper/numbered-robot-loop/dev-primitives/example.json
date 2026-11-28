@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "Harness Engineering for Software Engineering via Modular Executable Dev-Primitives",
+  "style": "编号机器人回路图",
+  "description": "HERMES is built on Dev-Primitives, modular and executable interfaces that transform repository components into active participants in software engineering. Since only a small subset of components is relevant to a given issue, HERMES instantiates Dev-Primitives on demand through a dynamic activation mechanism that localizes likely components and expands along their dependencies.",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/22_dev-primitives-fig01.png",
+      "caption": "Overview of HERMES. Dynamic activation selects the repository components relevant to the task and instantiates Dev-Primitives, which modify their own artifacts and exchange requirements in natural language. The modified repository is executed, and bug diagnosis maps the observed failure back to the components that must be revised, reactivating only those for the next round."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2610.07832",
+      "title": "Harness Engineering for Software Engineering via Modular Executable Dev-Primitives（Figure 1）",
+      "credit": "Haibo Jin, Xinjie Li, Peng Kuang, Haohan Wang。采用由原文 PDF 渲染生成的本地 PNG 副本，图片内容未改动。",
+      "license": "CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）"
+    }
+  ]
+}

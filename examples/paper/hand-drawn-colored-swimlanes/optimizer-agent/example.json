@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "The Optimizer Is the Agent: Reasoning-Driven Search across Prompts, Programs, and ML Workflows",
+  "style": "手绘三色泳道图",
+  "description": "The agent optimizes a system prompt for a student LLM on a dataset with train, validation, and test splits.",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/26_optimizer-agent-fig03.png",
+      "caption": "We visualize an example agent trajectory for prompt optimization, highlighting automatic verification and final prompt selection. None of this process is hardcoded; it emerges from the guiding instruction, with agents freely deciding each next step."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2608.06714",
+      "title": "The Optimizer Is the Agent: Reasoning-Driven Search across Prompts, Programs, and ML Workflows（Figure 3）",
+      "credit": "Junbo Li, Boyi Liu, Canwen Xu, Yite Wang, Yuxiong He, Zhangyang Wang, Qiang Liu, Zhewei Yao。采用由原文 PDF 渲染生成的本地 PNG 副本，图片内容未改动。",
+      "license": "CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）"
+    }
+  ]
+}

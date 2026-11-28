@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "EvoLink-Bench: A Benchmark for Evaluating Self-Evolving Agents in Long-Horizon Interdependent Task Streams",
+  "style": "绘本动物三栏图",
+  "description": "To address this gap, we introduce EvoLink-Bench, a benchmark designed to evaluate self-evolving agents in long-horizon, interdependent task streams. Figure 1 illustrates its overall design, including two evolution levels, a persistent task environment, and a unified evaluation protocol.",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/33_evolink-bench-fig01.png",
+      "caption": "Overview of EvoLink-Bench: L1 factual and L2 capability evolution in interdependent task streams. Evaluation separates retries from persistent updates and measures task scores, recovery, state changes, and reuse."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2611.34400",
+      "title": "EvoLink-Bench: A Benchmark for Evaluating Self-Evolving Agents in Long-Horizon Interdependent Task Streams（Figure 1）",
+      "credit": "Wei Chen, Xiaodong Lu, Weihao Shen, Gongxun Li, Xingyu Guo, Qihang Sun, Fuwei Zhang, Zhao Zhang, Yikun Ban, Shuang Li, Deqing Wang, Fuzhen Zhuang。采用由原文 PDF 渲染生成的本地 PNG 副本，图片内容未改动。",
+      "license": "CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）"
+    }
+  ]
+}

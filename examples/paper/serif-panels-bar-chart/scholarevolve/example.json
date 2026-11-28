@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "Learning from Research: Toward Lifelong Agent Harness Evolution",
+  "style": "衬线标题三栏对照图",
+  "description": "The proposed lifelong extension uses a genetic algorithm in which research informs module mutations, recombination provides crossover, and validation selects the next champion.",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/25_scholarevolve-fig01.png",
+      "caption": "Overview of ScholarEvolve. Left: workflow focused exploration. Middle: research guided module mutation, recombination, and lifelong evolution. Right: Qwen3.5-27B task (TGC) and scenario (SGC) goal completion on AppWorld Challenge."
+    },
+    {
+      "file": "images/25_scholarevolve-fig02.png",
+      "caption": "ScholarEvolve: (a) research guided module mutation, (b) selection and crossover across generations, and (c) evolved modules operating around a fixed backbone."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2609.40169",
+      "title": "Learning from Research: Toward Lifelong Agent Harness Evolution（Figure 1、Figure 2）",
+      "credit": "Jingbo Yang, Kwei-Herng Lai, Xiaowen Wang, Yaar Harari, Evgeniy Gabrilovich, Shiyu Chang。采用由原文 PDF 渲染生成的本地 PNG 副本，图片内容未改动。",
+      "license": "CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "Harness-Bench: Evaluating Agent Harnesses across Models and Realistic Workflows",
+  "style": "五段图标流程图",
+  "description": "Each configuration receives identical task inputs and initial environments in an isolated workspace, retaining its own prompting, tools, context management, and recovery behavior. Oracles score final artifacts; traces support behavioral and resource analysis (Figure 2).",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/12_harness-bench-fig02.png",
+      "caption": "Evaluation pipeline for a sales-data cleaning task. An isolated model–harness run produces artifacts for module checks and safety gates. Three modules pass and reporting fails, yielding 0.79 when the safety gate passes."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2605.27922",
+      "title": "Harness-Bench: Evaluating Agent Harnesses across Models and Realistic Workflows（Figure 2）",
+      "credit": "Yilun Yao, Xinyu Tan, Chao-Hsuan Liu, Yaoming Li, Zhengyang Wang, Zongwei Lv, Wenhan Yu, Zhewen Tan, Yuxuan Tian, Lin Sun, Xiangzheng Zhang, Guangxiang Zhao, Tong Yang。采用由原文 PDF 渲染生成的本地 PNG 副本，图片内容未改动。",
+      "license": "CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）"
+    }
+  ]
+}

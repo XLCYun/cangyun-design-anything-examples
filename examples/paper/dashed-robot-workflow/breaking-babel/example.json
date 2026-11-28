@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "Breaking Babel: A Self-Evolving Multi-Agent System for Long-Form Subtitle Translation",
+  "style": "虚线分区机器人流程图",
+  "description": "First, a persistent memory pool maintains series-level information that should survive beyond individual model calls, including terminology, character profiles, domain knowledge, and target-language idioms. Second, an adaptive translation graph routes each subtitle sentence to a subset of specialized translators, which may invoke tools for contextual retrieval, terminology control, external knowledge, and subtitle validation. Third, a judge–refiner loop evaluates the resulting candidates, selects the most promising translation, and refines it before the accepted result is written back to memory.",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/30_breaking-babel-fig01.png",
+      "caption": "Overview of SMART. Given source data in SRT style, SMART parses it into sentences. For each sentence, a learnable router (Graph Router) activates a subset of translators (MoA Translation); candidates may invoke tools (Tool-Calling) and are selected and refined by a judge–refiner loop (Judge-Refine). A persistent Memory Pool carries terminology, character information, domain knowledge, and idiomatic expressions across episodes. During test-time training, translation feedback updates translator prompts and routing."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2609.38660",
+      "title": "Breaking Babel: A Self-Evolving Multi-Agent System for Long-Form Subtitle Translation（Figure 1）",
+      "credit": "Haibo Jin, Xinjie Li, Najmeh Sadoughi, Yang Liu, Yibo Wang, Zhu Liu, Yuzong Liu。采用由原文 PDF 渲染生成的本地 PNG 副本，图片内容未改动。",
+      "license": "CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "EvoMemState: Evolving Memory State for Personal Agents",
+  "style": "深蓝描边机器人流程图",
+  "description": "As illustrated in Figure 4, EvoMemState organizes personal memory around Persistent Facts and two complementary states. Ontology-Guided Memory State Induction extracts Persistent Facts from accumulated personal information and constructs Relational States that track their validity, scope, and evolving relations.",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/34_evomemstate-fig04.png",
+      "caption": "Overview of EvoMemState for personal agents. Ontology-guided induction transforms accumulated personal information into Persistent Facts and Relational States. RL-based state evolution learns a Memory State Evolution Policy from memory-use experience and generates a request-specific Reasoning State. State-Aware Reasoning combines the Relational States and Reasoning State to guide the personal agent’s response."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2611.03743",
+      "title": "EvoMemState: Evolving Memory State for Personal Agents（Figure 4）",
+      "credit": "Zhishang Xiang, Yunbo Tang, Zhongqiao Liu, Junkai Chen, Zerui Chen, Qingguo Hu, Yuxuan Zhang, William Grant, Qinggang Zhang, Jinsong Su。采用由原文 PDF 渲染生成的本地 PNG 副本，图片内容未改动。",
+      "license": "CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）"
+    }
+  ]
+}

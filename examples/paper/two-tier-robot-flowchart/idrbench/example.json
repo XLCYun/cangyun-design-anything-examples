@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "IDRBench: Benchmarking the Interactive Capabilities of Deep Research Agents",
+  "style": "双层灰底机器人流程图",
+  "description": "We present IDRBench, a benchmark for systematically comparing deep research agents under both autonomous and interactive task settings (Figure 2).",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/38_idrbench-fig02.png",
+      "caption": "Overview of IDRBench. The benchmark combines a common research workflow with controlled clarification, query compression, model selection, and evaluation of task-specific report alignment and interaction cost."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2601.06676",
+      "title": "IDRBench: Benchmarking the Interactive Capabilities of Deep Research Agents（Figure 2）",
+      "credit": "Yingchaojie Feng, Qiang Huang, Xiaoya Xie, Zhaorui Yang, Jun Yu, Wei Chen, Anthony K. H. Tung。采用由原文 PDF 渲染生成的本地 PNG 副本，图片内容未改动。",
+      "license": "CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）"
+    }
+  ]
+}

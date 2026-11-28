@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+  "style": "浅彩六栏机器人流程图",
+  "description": "The simulator inside PhysLoop supplies physical constraints and observable outcomes, allowing the harness to check whether the generated behavior satisfies the intended physical requirements. Feedback from these outcomes guides the LLM in correcting how its knowledge is applied, while repeated assessment determines which videos are suitable to retain.",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/18_physloop-fig01.png",
+      "caption": "Overview of PhysLoop and its two applications: training-data construction and video repair. The harness guides LLMs to identify physical errors and generate physically consistent videos through simulators and other tools."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2611.16748",
+      "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models（Figure 1）",
+      "credit": "Yuxuan Chen, Xiaojie Li, Hao Chen, Juncheng Ma, Kewei Zhang, Zhongjing Du, Guoqiang Wei, Fangfang Wang, Zhen Dong, Zhiyang Dou, Liming Zhao, Yan Zeng, Jianwei Zhang, Daquan Zhou。采用由原文 PDF 渲染生成的本地 PNG 副本，图片内容未改动。",
+      "license": "CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+  "style": "浅彩三层分区流程图",
+  "description": "We introduce DRBench Pro, which uses Wikipedia-derived knowledge trees to define research tasks and their evaluation criteria within a shared reference space. The tree structure separates major research directions from chains of related knowledge within them, enabling distinct measures of breadth and depth.",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/35_drbench-pro-fig02.png",
+      "caption": "Overview of DRBench Pro. (A) We construct a Wikipedia-derived local graph around a selected root entity and sample subgraphs by retaining selected children of the root and their complete descendant subtrees together with the root. (B1) Each sampled subgraph defines a research query. (B2) Each sampled edge is converted into an edge-grounded rubric, forming the hidden rubric set. (C) An evaluated deep research agent answers the query with a report; a judge scores the report against the rubric set, and the edge-level scores are mapped back to the local knowledge tree and aggregated bottom-up into breadth and depth."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2611.34852",
+      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents（Figure 2）",
+      "credit": "Han Huang, Yuchen Yan, Xingyu Wu, Yijun Li, Chao Deng, Jie Liu, Jin Ma, Yongliang Shen。采用由原文 PDF 渲染生成的本地 PNG 副本，图片内容未改动。",
+      "license": "CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）"
+    }
+  ]
+}
