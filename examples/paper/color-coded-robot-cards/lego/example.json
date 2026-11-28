@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "Large-scale Repository Engineering via Agent-Native Reusable Code Primitives",
+  "style": "分色机器人卡片流程图",
+  "description": "LEGO is a repository-construction pipeline built on CodeFace, a library of reusable Code Primitives (Figure 1). CodeFace is built once by mining real repositories into component-level primitives; construction then proceeds per task over the primitives a request activates.",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/15_lego-fig01.png",
+      "caption": "From Code Primitives to complete repositories. Left: real-world repositories are mined into component-level Code Primitives, each carrying its interface, dependencies, tests, configuration, and documentation, and organized in CodeFace. Right: a user request activates the required primitives, which adapt themselves and exchange the requirements their changes impose, before the adapted implementations are edited into the repository and revised under execution feedback and diagnosis."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2610.09079",
+      "title": "Large-scale Repository Engineering via Agent-Native Reusable Code Primitives（Figure 1）",
+      "credit": "Haibo Jin, Peng Kuang, Xucheng Yu, Jerry Wang, Dehao Wu, Haohan Wang。采用由原文 PDF 渲染生成的本地 PNG 副本，图片内容未改动。",
+      "license": "CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）"
+    }
+  ]
+}

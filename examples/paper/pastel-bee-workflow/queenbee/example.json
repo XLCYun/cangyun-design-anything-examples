@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "QueenBee: A Recursively Self-Improving Harness for Communication Topology Design in LLM-Based Multi-Agent Systems",
+  "style": "浅彩蜜蜂三栏流程图",
+  "description": "We therefore represent MAS workflows as executable programs that generate temporal communication DAGs, enabling joint optimization and inheritance of communication structures and work instructions. Based on this representation, we propose QueenBee, an experience-guided workflow evolution framework that uses persistent structural memory, Structural Feedback and Transition Bank (SFT-Bank), to accumulate execution traces, design hypotheses and their validation results, and historical programs, enabling workflows to benefit continuously from past experience.",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/23_queenbee-fig01.png",
+      "caption": "Overview of QueenBee’s experience-guided workflow evolution. The Planner receives the parent workflow, exploration goal, and experience retrieved from SFT-Bank. It generates a design hypothesis and workflow code, followed by legality screening, parent-comparison testing, and cross-task validation. Execution feedback updates Diagnosis Cards, the Ledger, and the Program Archive, guiding subsequent evolution."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2606.27492",
+      "title": "QueenBee: A Recursively Self-Improving Harness for Communication Topology Design in LLM-Based Multi-Agent Systems（Figure 1）",
+      "credit": "Congjia Tian, Yuhang Yao, Jiaming Cui。采用由原文 PDF 渲染生成的本地 PNG 副本，图片内容未改动。",
+      "license": "CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）"
+    }
+  ]
+}

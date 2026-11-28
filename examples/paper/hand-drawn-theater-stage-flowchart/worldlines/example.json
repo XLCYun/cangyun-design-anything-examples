@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "WorldLines: Benchmarking and Modeling Long-Horizon Stateful Embodied Agents",
+  "style": "手绘舞台流程图",
+  "description": "WorldLines evaluates whether embodied agents can maintain household world states over long-term interactions. Each sample is derived from a multi-day household trace containing dialogue, human activity, robot actions, execution feedback, and object or device state changes.",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/37_worldlines-fig03.png",
+      "caption": "Overview of the WorldLines construction framework. WorldLines builds long-horizon embodied traces from grounded household worlds, project-driven activities, and closed-loop state-changing interactions. These histories are converted into cutoff-controlled, evidence-linked samples for Memory QA and Embodied Task Planning, testing persistent world-state maintenance under partial observability."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2606.18847",
+      "title": "WorldLines: Benchmarking and Modeling Long-Horizon Stateful Embodied Agents（Figure 3）",
+      "credit": "Yehang Zhang, Jianchong Su, Haojian Huang, Yifan Chang, Tianhao Zhou, Xinli Xu, Yingjie Xu, Yinchuan Li, Zexi Li, Ying-Cong Chen。采用由原文 PDF 渲染生成的本地 PNG 副本，图片内容未改动。",
+      "license": "CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）"
+    }
+  ]
+}
