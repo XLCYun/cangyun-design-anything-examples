@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "标准单元布局搜索",
+  "style": "粉彩分栏、角色插画与微型版图",
+  "description": "左、中、右三栏按蓝、杏、绿分区，以悬压在细框上的圆角标题牌标示阅读入口。左栏的五张候选卡按三加二排列，中栏用重复的代码窗口、版图缩略图和状态条表现迭代。狭窄右栏以大版图和设计师插画收尾，底部档案横带将布局搜索与交付流程连起来。",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/cell-layout-search.png",
+      "caption": "五组标准单元布局种子经过局部调整，形成可导出并进行合法性检查的布局。"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/html/2609.15364v2#S3.F2",
+      "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments（图 2）",
+      "credit": "Sibo Zhu, Shicheng Fan, Xinyue Wang, Wenyi Wu, Kun Zhou, Biwei Huang。参考原图的构图与视觉风格，图片内容为重新生成的原创内容。",
+      "license": "arXiv 非独占分发许可 1.0（https://arxiv.org/licenses/nonexclusive-distrib/1.0/）"
+    }
+  ]
+}

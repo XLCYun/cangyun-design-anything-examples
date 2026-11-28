@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "逆向声学定位系统",
+  "style": "双阶段、双色汇流的手绘论文流程图",
+  "description": "一条紧凑的浅紫流程带串起标定步骤，浅蓝主区用蓝、绿两路并排呈现不同计算，最后汇合到橙边结果卡。黑色虚线绕过两条路径，清楚标出反馈方向。手写标题、表格、衬线公式和成对波形缩略图各有层级，人物与设备插画落在流程起点和落点。",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/acoustic-localization.png",
+      "caption": "以室内声源定位为例，上部标定麦克风阵列，下部结合直达声和回波的到达时间估计声源位置。数值为示意。"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/html/2607.14777v1#S2.F2",
+      "title": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning（图 2）",
+      "credit": "Jinyang Wu, Shuo Yang, Zhengxi Lu, Fan Zhang, Yuhao Shen, Lang Feng, Haoran Luo, Zheng Lian, Shuai Zhang, Zhengqi Wen, Jianhua Tao。参考原图的构图与视觉风格，图片内容为重新生成的原创内容。",
+      "license": "arXiv 非独占分发许可 1.0（https://arxiv.org/licenses/nonexclusive-distrib/1.0/）"
+    }
+  ]
+}

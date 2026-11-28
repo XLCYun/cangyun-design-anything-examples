@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "建筑能耗时序模拟",
+  "style": "阶梯梯形与立体微缩图标的论文流程图",
+  "description": "用三块逐级加宽的淡色梯形组织主流程，以右侧虚线栏承载数据交换和四幅软件视图。深蓝衬线标题与低饱和青、蓝、紫底色建立层级，三色细箭头区分模拟流程、数据请求和数据返回。图标、人物和软件窗口按不同尺度配置，底部通栏用四组图文收拢模拟产物。",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/building-energy.png",
+      "caption": "建筑能耗逐小时模拟流程。几何、气象、占用和设备参数进入逐时求解，并行比较基准、遮阳和玻璃方案。右栏用曲线、表格和建筑模型展示示例结果。"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/html/2611.03178v1#S3.F3",
+      "title": "CoworkOS: Scaling Agent Coworkers for Real-world Automation（图 3）",
+      "credit": "Jiajie Jin, Guanting Dong, Chengjun Pan, Xin Deng, Zhuohui Sheng, Guoqiang Wang, Tao Gui, Yutao Zhu, Yujia Chen, Shihong Yi, Binze Hu, Zhixiong Yang, Zhichao Sun, Rui Wang, Han Han, Mingyu Ma, Junhao Huang, Xiaotao Wang, Huicheng Jiang, Yuyang Hu, Xinyu Yang, Wanghan Xu, Yajie Yang, Zhecan Wang, Honglin Guo, Xiaoyu Xing, Xiaoqian Zhang, Yulun Zhu, Xiaoxi Li, Jiahang Lin, Shaofan Liu, Shihan Dou, Zhiheng Xi, Qi Zhang, Yu-Gang Jiang, See-Kiong Ng, Yang Zhang, Tat-Seng Chua, Ji-Rong Wen, Zhicheng Dou。参考原图的构图与视觉风格，图片内容为重新生成的原创内容。",
+      "license": "CC-BY-NC-SA-4.0"
+    }
+  ]
+}

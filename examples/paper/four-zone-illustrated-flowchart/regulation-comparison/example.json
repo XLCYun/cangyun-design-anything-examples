@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "虚构法规条文比对系统",
+  "style": "四区分色的插画式论文流程图",
+  "description": "用奶油黄、冰蓝、薄荷绿、淡薰衣草划分四个流程面板。圆圈编号确定阅读顺序，双色线型区分处理步骤和来源引用。重点节点用较大的叠册插画引导视线，其余节点用小图标和短标签，让读者能在箭头之间快速定位。",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/fictional-regulation-comparison.png",
+      "caption": "四个彩色面板展示虚构灯笼条例的版本准备、条文对齐、来源汇编与变更登记，示例将草案中的 30 天期限延长为 45 天。"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/html/2610.32285v1#S3.F2",
+      "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution，图 2",
+      "credit": "Zhiyong Cao, Hengjie Zhu, Yongxin Wang, Xuchen Li, Jintao Li, Shuxia Liu, Dunqiang Liu, Bo Wang, Kairan Zhang, Cong Lin, JiangDi Yu, Siyuan Liu, Sijia Yao, Yi-Liang Wei, Lingxu Ma, Aijia Wang, Anxin Chen, Zixian Wei, Xiang Ruan, Ruizhi Xu, Ruqian Shi, Baihua Xiao, Sicheng Zhou。参考原图的构图与视觉风格，图片内容为重新生成的原创内容",
+      "license": "CC-BY-NC-SA-4.0"
+    }
+  ]
+}

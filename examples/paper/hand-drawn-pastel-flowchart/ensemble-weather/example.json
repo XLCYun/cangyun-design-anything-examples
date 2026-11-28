@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "气象集合预报融合流程图",
+  "style": "浅色分区的手绘流程图",
+  "description": "用上方两层带括线的色签标出阶段，中间以黑色箭头串起六个图文节点。下方四张详解卡沿用蓝、绿、橙、紫配色，借细线对齐相关步骤。右侧以四行图文表呈现结果，底部横条集中放图例。细墨线、小幅手绘插画和低饱和底色让信息较密的版面仍有清楚的阅读顺序。",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/ensemble-weather.png",
+      "caption": "气象集合预报融合，从模式成员、区域网格与加权融合到沿海网格的降雨预报，右侧数值为示例。"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/pdf/2608.23635v1#page=3",
+      "title": "ToolRobustBench: Stage-Wise Perturbation Evaluation and Failure Diagnosis for Tool-Calling Agents，图 1",
+      "credit": "YiShan Zheng, Yuan Wu, Yi Chang。参考原图的构图与视觉风格，图片内容为重新生成的原创内容。",
+      "license": "arXiv 非独占分发许可 1.0（https://arxiv.org/licenses/nonexclusive-distrib/1.0/）"
+    }
+  ]
+}

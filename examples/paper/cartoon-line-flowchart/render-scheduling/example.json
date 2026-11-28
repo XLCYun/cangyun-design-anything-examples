@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "渲染农场分帧调度",
+  "style": "卡通线描流程图",
+  "description": "用蓝色与焦橙色并排面板讲清任务封装和策略对比，以浅绿通栏承接交付与重试。小幅卡通角色在三个位置呼应，折角任务单、代码卡、微型柱图与分岔曲线分别承载不同信息，编号、细描边和简短标签帮助读者在紧凑布局中跟随流程。",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/render-scheduling.png",
+      "caption": "用同一镜头的 24 帧展示任务封装、分帧策略比较，以及渲染校验、单批重试和成片交付。"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/pdf/2610.34298v1#page=5",
+      "title": "Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents（图 1）",
+      "credit": "Zhenning Shi, Liang Pang, Yongqi Li。参考原图的构图与视觉风格，图片内容为重新生成的原创内容。",
+      "license": "arXiv 非独占分发许可 1.0（https://arxiv.org/licenses/nonexclusive-distrib/1.0/）"
+    }
+  ]
+}

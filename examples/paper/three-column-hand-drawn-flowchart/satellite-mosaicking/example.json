@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "合成卫星影像拼接",
+  "style": "三色分栏的手绘论文流程图",
+  "description": "蓝、绿、紫三栏用细圆角边框区分工序，栏首的手绘动物帮助定位。黑色粗箭头串联主流程，色线在顶部折返连接版本快照。卡片、短标签和内嵌的双行状态表承载细节，页底三条横带收束流程。",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/satellite-mosaicking.png",
+      "caption": "虚构河口的合成卫星影像示例，依次展示配准、融合、检查与拼接结果。"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/html/2608.01964v1#S1.F2",
+      "title": "LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks（Figure 2）",
+      "credit": "Ziyu Ma, Hailang Huang, Shun Zou, Yong Wang, Shidong Yang, Yiming Hu, Fei Wei, XiangXiang Chu。参考原图的构图与视觉风格，图片内容为重新生成的原创内容。",
+      "license": "arXiv 非独占分发许可 1.0（https://arxiv.org/licenses/nonexclusive-distrib/1.0/）"
+    }
+  ]
+}

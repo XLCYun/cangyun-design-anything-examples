@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "数据库查询计划优化",
+  "style": "衬线折角卡片与虚线反馈流程图",
+  "description": "上层将三条并行流程汇入一张窄长的紫色卡片，用金色菱形标出分支。下层用浅青虚线框收纳微型折线图与四条红绿结果条。折角纸页、细描边和衬线字统一了密集的技术细节，灰色实线、红色虚线和青色虚线提示不同的阅读路径。",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/query-plan.png",
+      "caption": "三组规则并行生成候选查询计划，计划经汇总、排序和回放检查后保存。回放结果用于重新校准代价模型和调整搜索策略。"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/pdf/2605.23904v2#page=4",
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills（图 2）",
+      "credit": "Yifan Yang, Ziyang Gong, Weiquan Huang, Qihao Yang, Ziwei Zhou, Zisu Huang, Yan Li, Xuemei Gao, Qi Dai, Bei Liu, Kai Qiu, Yuqing Yang, Dongdong Chen, Xue Yang, Chong Luo。参考原图的构图与视觉风格，图片内容为重新生成的原创内容。",
+      "license": "arXiv 非独占分发许可 1.0（https://arxiv.org/licenses/nonexclusive-distrib/1.0/）"
+    }
+  ]
+}
