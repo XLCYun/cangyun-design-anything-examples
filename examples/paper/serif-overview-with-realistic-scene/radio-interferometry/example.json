@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "射电望远镜阵列成像",
+  "style": "双栏衬线总览图与写实场景",
+  "description": "以接近六四的双栏组织信息。宽栏用时间轴和五张色卡铺垫，下方用写实全景和带引线的标注说明观测过程。窄栏用淡蓝、奶油黄与淡粉分组，依次排布三联卡、四宫格和带右向箭头的三联卡。统一的衬线字体、图标和留白使图文密集的版面仍有清楚的阅读顺序。",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/radio-interferometry.png",
+      "caption": "左侧为虚构射电阵列的观测日程、现场和以数字时标串联的地球自转综合示意，右侧展示信号测量、图像重建及增加一次扫描后的成像对比。"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/html/2611.17267v1#S0.F1",
+      "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds（图 1）",
+      "credit": "Pengcheng Zhou, Xuanyu Liu, Yanchen Yin, Tianjie Ju, Bobo Li, Shengqiong Wu, Hao Fei, Mong-Li Lee, Wynne Hsu。参考原图的构图与视觉风格，图片内容为重新生成的原创内容。",
+      "license": "arXiv 非独占分发许可 1.0（https://arxiv.org/licenses/nonexclusive-distrib/1.0/）"
+    }
+  ]
+}

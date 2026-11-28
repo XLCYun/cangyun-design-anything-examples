@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "材料光谱匹配系统",
+  "style": "五区圆角框与衬线页签的等距科普插画",
+  "description": "通高的蓝色中栏与左右各两块短面板形成视线主轴。五色细边框、跨区渐变箭头和面板上沿的粗衬线页签明确阅读顺序。中央用三组角色、交错排列的等距微缩场景和底部四色图例承载层级信息，右侧以仪器桌和检测门两幅插画承接流程。",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/spectral-matching.png",
+      "caption": "SpecMatch 从陶瓷片、矿物碎片和聚合物薄膜的光谱采集出发，经预处理和匹配，最后检查峰位、波段重叠及重复性。"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/html/2607.19865v1#S0.F1",
+      "title": "DocOps: A Verifiable Benchmark for Autonomous Agents in Complex Document Operations（图 1）",
+      "credit": "Jiazhen Jiang, Boxi Cao, Lingyong Yan, Yaojie Lu, Hongyu Lin, Shuaiqiang Wang, Dawei Yin, Xianpei Han, Le Sun。参考原图的构图与视觉风格，图片内容为重新生成的原创内容。",
+      "license": "arXiv 非独占分发许可 1.0（https://arxiv.org/licenses/nonexclusive-distrib/1.0/）"
+    }
+  ]
+}

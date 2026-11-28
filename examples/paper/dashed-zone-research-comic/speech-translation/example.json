@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "多语种语音翻译系统",
+  "style": "彩色虚线分区科研漫画图",
+  "description": "用六个淡色虚线区块围住圆桌主插画。外围区块把场景插画和图标卡片交替放在左右两侧，平衡图面。标题关键词、卡片边框和连接线沿用区块颜色，圆桌外圈以浅青箭头标出循环方向。",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/speech-translation.png",
+      "caption": "六个区块围绕多语种语音工作台展开，展示语音采集、识别、语境处理、译文检查、实时翻译和语音输出。"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/html/2609.16679v2#S1.F2",
+      "title": "AI for Games in the Foundation Model Era（图 2）",
+      "credit": "Meng Luo, Yanlin Li, Hao Li, Hongzhan Lin, Pengfei Zhou, Tianjie Ju, Ran Zhang, Yeying Jin, Mong-Li Lee, Wynne Hsu。参考原图的构图与视觉风格，图片内容为重新生成的原创内容。",
+      "license": "arXiv 非独占分发许可 1.0（https://arxiv.org/licenses/nonexclusive-distrib/1.0/）"
+    }
+  ]
+}

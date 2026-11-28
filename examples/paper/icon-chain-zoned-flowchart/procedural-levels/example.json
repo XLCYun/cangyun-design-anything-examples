@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "程序化关卡生成与求解",
+  "style": "浅色分区与图标串联的论文流程图",
+  "description": "四个大小不同的区块共用一张宽幅白底。顶部横排生成步骤，左侧输入和右侧试玩形成两端，中下部集中展示检查与对照试验。浅蓝、桃色和浅绿帮助识别主要区块，紫色窄条把密集的检查结果组织成组。蓝色折线箭头串起跨栏流程，细灰箭头连接栏内操作。格盘缩略图、勾叉和重复出现的鼹鼠插画让关卡变化、求解结果和试玩循环容易辨认。",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/procedural-levels.png",
+      "caption": "由随机种子和房间图块生成关卡，经出口可达性、步数与桥块扰动检查，进入试玩循环。"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/html/2610.26828v1#S2.F1",
+      "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis, Figure 1",
+      "credit": "Zhaoyang Wang, Qianhui Wu, Haorui Wang, Simon Yu, Baolin Peng, Canwen Xu, Hao Cheng, Wenlin Yao, Boyi Liu, Yite Wang, Jianfeng Gao, Huaxiu Yao。参考原图的构图与视觉风格，图片内容为重新生成的原创内容",
+      "license": "arXiv 非独占分发许可 1.0（https://arxiv.org/licenses/nonexclusive-distrib/1.0/）"
+    }
+  ]
+}

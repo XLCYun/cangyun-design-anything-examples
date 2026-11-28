@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/example.schema.json",
+  "title": "科学文献知识图谱构建",
+  "style": "手绘角色、彩色分栏与公式式总结",
+  "description": "窄栏图例、中央四格与纵向叠放的右栏分担不同类型的信息。手绘角色和资料整理装置引导视线穿过色框，曲线、矩阵和关系网各有固定位置。橙、蓝、绿圆章在底部再次出现，把三个环节收束为一行等式。",
+  "author": "XLCYun",
+  "license": "CC-BY-4.0",
+  "images": [
+    {
+      "file": "images/literature-knowledge-graph.png",
+      "caption": "猫头鹰整理员从文献中提取记录，通过关联评分和主题映射构建科学文献知识图谱。"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/html/2608.27260v1#S1.F1",
+      "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents（图 1）",
+      "credit": "Xingshan Zeng, Zishan Xu, Boju Zhang, Yuzhou Wu, Lingzhi Wang, Jianghao Lin, Liangyou Li, Yasheng Wang, Lifeng Shang, Xin Jiang, Weinan Zhang, Yong Yu, Qun Liu, Weiwen Liu。参考原图的构图与视觉风格，图片内容为重新生成的原创内容。",
+      "license": "CC-BY-NC-ND-4.0"
+    }
+  ]
+}
